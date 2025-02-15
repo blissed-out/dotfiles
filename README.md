@@ -1,9 +1,11 @@
-# How to install
-`git clone https://github.com/blissed-out/dotfiles`
-`cd dotfiles`
-`stow <folder-name>`
-# Install stow
-## Macos
+# How to use my config
+## Install stow
+### Macos
 `brew install stow`
-## Arch Linux
+### Arch Linux
 `sudo pacman -S stow`
+## Install using stow
+`git clone https://github.com/blissed-out/dotfiles` 
+`cd dotfiles` 
+`stow <folder-name>` 
+
