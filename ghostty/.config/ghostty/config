@@ -1,5 +1,12 @@
 font-size = 18
-window-decoration = false
-theme = rose-pine
+macos-titlebar-style = "hidden"
+# macos-window-shadow = false
+#theme = "Everforest Dark - Hard"
+#theme = dark:"ayu", light: "ayu_light"
+# theme = dark: "Ayu Mirage", light: "ayu_light"
+theme = "nord"
+# font-family = "Geist Mono"
+# adjust-cell-height = 25%
+# adjust-cursor-height = 25%
 # background-opacity = 0.9
-# background-blur = true
+#background-blur = true
