@@ -1,23 +1,35 @@
 -- vim.cmd("let g:netrw_liststyle = 3")
 local opt = vim.opt -- for conciseness
 
+-- reduce vertical ui noise when using line height
+opt.cmdheight = 0
+-- opt.laststatus = 0
+
+-- to see file name
+opt.title = true
+opt.titlestring = "%t"
+
 -- line numbers
 opt.relativenumber = true -- show relative line numbers
 opt.number = true -- shows absolute line number on cursor line (when relative number is on)
 
 -- tabs & indentation
-opt.tabstop = 2 -- 2 spaces for tabs (prettier default)
-opt.shiftwidth = 2 -- 2 spaces for indent width
+opt.tabstop = 4 -- 2 spaces for tabs (prettier default)
+opt.shiftwidth = 4 -- 2 spaces for indent width
 opt.expandtab = true -- expand tab to spaces
 opt.autoindent = true -- copy indent from current line when starting new one
 
 -- line wrapping
 opt.wrap = false -- disable line wrapping
 
+-- code folding
+vim.opt.foldenable = true -- Enable folding
+vim.opt.foldlevel = 99 -- Open all folds by default
+vim.opt.foldmethod = "indent" -- Use indentation levels for folding
+
 -- search settings
 opt.ignorecase = true -- ignore case when searching
 opt.smartcase = true -- if you include mixed case in your search, assumes you want case-sensitive
-
 
 -- cursor line
 opt.cursorline = false -- highlight the current cursor line
