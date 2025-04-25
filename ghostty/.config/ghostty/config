@@ -1,12 +1,26 @@
-font-size = 18
+font-size = 20
+# font-family = "Hack Nerd Font"
+font-thicken
+font-thicken-strength = 0
 macos-titlebar-style = "hidden"
+# macos-titlebar-proxy-icon = "hidden"
 # macos-window-shadow = false
-#theme = "Everforest Dark - Hard"
-#theme = dark:"ayu", light: "ayu_light"
-# theme = dark: "Ayu Mirage", light: "ayu_light"
-theme = "nord"
-# font-family = "Geist Mono"
-# adjust-cell-height = 25%
-# adjust-cursor-height = 25%
+
+# theme = dark: "catppuccin-mocha.conf", light: "catppuccin-latte.conf"
+# theme = "everforest-dark-soft.ghostty"
+# theme = "everforest-dark-hard.ghostty"
+# theme = "tokyonight_night"
+# theme = "Everforest Dark - Hard"
+theme = dark:"rose-pine", light: "rose-pine-dawn"
+# theme = dark:"tokyonight_moon", light: "tokyonight-day"
+# theme = "Solarized Dark - Patched"
+# theme = nord
+# theme = dark: "NightOwlDark", light: "NightOwlLight"
+# adjust-cell-height = 20
+# adjust-cursor-height = 20
+
 # background-opacity = 0.9
-#background-blur = true
+# background-blur = true
+# cursor-color =  #616d80
+# cursor-text = #89aae0
+
