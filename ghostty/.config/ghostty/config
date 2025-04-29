@@ -1,26 +1,22 @@
-font-size = 20
-# font-family = "Hack Nerd Font"
+font-size = 18
+# font-family = "Fira Code Nerd Font Mono"
+# font-family = "Cascadia Code"
+# font-family = "IBM Plex Mono"
 font-thicken
-font-thicken-strength = 0
+# font-thicken-strength = 0
 macos-titlebar-style = "hidden"
 # macos-titlebar-proxy-icon = "hidden"
 # macos-window-shadow = false
-
-# theme = dark: "catppuccin-mocha.conf", light: "catppuccin-latte.conf"
-# theme = "everforest-dark-soft.ghostty"
-# theme = "everforest-dark-hard.ghostty"
-# theme = "tokyonight_night"
-# theme = "Everforest Dark - Hard"
-theme = dark:"rose-pine", light: "rose-pine-dawn"
-# theme = dark:"tokyonight_moon", light: "tokyonight-day"
-# theme = "Solarized Dark - Patched"
-# theme = nord
-# theme = dark: "NightOwlDark", light: "NightOwlLight"
+# theme = "gruvbox_material"
+# theme = dark: "catppuccin-mocha.conf", light: "catppuccin-frappe.conf"
+# theme = dark:"rose-pine", light: "rose-pine-dawn"
+theme = dark:"catppuccin-macchiato.conf", light: "catppuccin-frappe.conf"
+# theme = dark: "solarized_osaka_dark", light: "solarized_osaka_light"
 # adjust-cell-height = 20
 # adjust-cursor-height = 20
 
-# background-opacity = 0.9
-# background-blur = true
+# background-opacity = 0.95
+# background-blur = 20
 # cursor-color =  #616d80
 # cursor-text = #89aae0
 
