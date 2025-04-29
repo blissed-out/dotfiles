@@ -1,0 +1,31 @@
+return {
+	-- "vyfor/cord.nvim",
+	-- build = ":Cord update",
+	-- opts = {
+	--
+	-- 	enabled = true,
+	-- 	log_level = vim.log.levels.OFF,
+	-- 	editor = {
+	-- 		client = "neovim",
+	-- 		tooltip = "The Superior Text Editor",
+	-- 		icon = nil,
+	-- 	},
+	-- 	display = {
+	-- 		theme = "default",
+	-- 		flavor = "dark",
+	-- 		swap_fields = false,
+	-- 		swap_icons = false,
+	-- 	},
+	-- 	timestamp = {
+	-- 		enabled = true,
+	-- 		reset_on_idle = false,
+	-- 		reset_on_change = false,
+	-- 	},
+	-- },
+	-- -- vim.keymap.set("n", "<leader>Ct", function()
+	-- -- 	require("cord.api.command").toggle_presence()
+	-- -- end),
+	-- -- vim.keymap.set("n", "<leader>Ci", function()
+	-- -- 	require("cord.api.command").toggle_idle_force()
+	-- -- end),
+}
