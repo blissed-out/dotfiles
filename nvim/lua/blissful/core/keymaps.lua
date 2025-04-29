@@ -31,11 +31,3 @@ keymap.set("n", "<leader>tn", "<cmd>tabn<CR>", { desc = "Go to next tab" }) --  
 keymap.set("n", "<leader>tp", "<cmd>tabp<CR>", { desc = "Go to previous tab" }) --  go to previous tab
 keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer in new tab" }) --  move current buffer to new tab
 
--- neovim termianl management
--- keymap.set("n", "<D-j>", function()
--- 	vim.cmd.vnew()
--- 	vim.cmd.term()
--- 	vim.cmd.wincmd("J")
--- 	vim.api.nvim_win_set_height(0, 15)
--- end)
---
