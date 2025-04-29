@@ -4,6 +4,7 @@ local opt = vim.opt -- for conciseness
 -- reduce vertical ui noise when using line height
 opt.cmdheight = 0
 -- opt.laststatus = 0
+opt.showtabline = 0
 
 -- to see file name
 opt.title = true
