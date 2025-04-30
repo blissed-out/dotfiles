@@ -6,26 +6,23 @@ return {
 	-- 	-- Optionally configure and load the colorscheme
 	-- 	-- directly inside the plugin declaration.
 	-- 	vim.g.gruvbox_material_enable_italic = true
-	-- 	vim.g.gruvbox_material_background = "medium"
+	-- 	vim.g.gruvbox0_material_background = "medium"
 	-- 	vim.g.gruvbox_material_transparent_background = 0
 	-- 	vim.g.gruvbox_material_foreground = "material"
-	-- 	vim.g.gruvbox_material_visual = "green"
-	-- 	vim.g.gruvbox_material_menu_selection_background = "green"
+	-- 	vim.g.gruvbox_material_visual = "grey"
+	-- 	vim.g.gruvbox_material_menu_selection_background = "grey"
 	-- 	vim.g.gruvbox_material_show_eob = 0
 	-- 	vim.g.gruvbox_material_float_style = "dim"
 	--
 	-- 	vim.cmd.colorscheme("gruvbox-material")
 	--
 	-- 	vim.api.nvim_set_hl(0, "Pmenu", { bg = "#1d2021" }) -- Darker gray (or blackish tone)
-	-- 	-- vim.api.nvim_set_hl(0, "PmenuSel", { bg = "#3c3836", blend = 0 }) -- Slightly lighter for selected item
-	-- 	-- vim.api.nvim_set_hl(0, "PmenuSbar", { bg = "#1d2021" })
-	-- 	-- vim.api.nvim_set_hl(0, "PmenuThumb", { bg = "#1d2021" })
-	--
-	-- 	-- Ensure floating windows (e.g., completion, popups) are darker
-	-- 	-- vim.api.nvim_set_hl(0, "NormalFloat", { bg = "#1d2021" }) -- Dark background for floats
-	-- 	-- vim.api.nvim_set_hl(0, "FloatBorder", { bg = "#1d2021" })
+	-- 	vim.api.nvim_set_hl(0, "PmenuSel", { bg = "#3c3836", blend = 0 }) -- Slightly lighter for selected item
+	-- 	vim.api.nvim_set_hl(0, "PmenuSbar", { bg = "#1d2021" })
+	-- 	vim.api.nvim_set_hl(0, "PmenuThumb", { bg = "#1d2021" })
+	-- 	vim.api.nvim_set_hl(0, "TelescopeSelection", { bg = "none" })
 	-- end,
-	--
+
 	-- "AlexvZyl/nordic.nvim",
 	-- lazy = false,
 	-- priority = 1000,
@@ -38,19 +35,37 @@ return {
 	-- -- Optional; default configuration will be used if setup isn't called.
 	-- config = function()
 	-- 	require("everforest").setup({
-	-- 		-- background = "hard",
-	-- 		-- transparent_background_level = 2,
-	-- 		-- italics = true,
-	-- 		-- disable_italic_comments = false,
-	-- 		-- sign_column_background = "none",
-	-- 		-- ui_contrast = "low",
-	-- 		-- dim_inactive_windows = false,
-	-- 		-- diagnostic_text_highlight = true,
-	-- 		-- diagnostic_virtual_text = "coloured",
-	-- 		-- spell_foreground = false,
+	-- 		background = "medium",
+	-- 		transparent_background_level = 0,
+	-- 		italics = true,
+	-- 		disable_italic_comments = false,
+	-- 		sign_column_background = "none",
+	-- 		ui_contrast = "low",
+	-- 		dim_inactive_windows = false,
+	-- 		diagnostic_text_highlight = false,
+	-- 		diagnostic_virtual_text = "coloured",
+	-- 		spell_foreground = false,
+	-- 		show_eob = false,
+	-- 		float_style = "dim",
 	-- 	})
 	-- 	vim.cmd.colorscheme("everforest")
+	-- 	-- Remove background for suggestion (e.g., completion menu)
+	-- 	vim.api.nvim_set_hl(0, "Pmenu", { bg = "none" })
+	-- 	vim.api.nvim_set_hl(0, "PmenuSel", { bg = "none" })
+	-- 	vim.api.nvim_set_hl(0, "TelescopeSelection", { bg = "none" })
+
+	-- Remove background for Trouble plugin window
+	-- vim.api.nvim_set_hl(0, "TroubleNormal", { bg = "none" })
+	-- vim.api.nvim_set_hl(0, "TroubleText", { bg = "none" })
+	-- vim.api.nvim_set_hl(0, "TroubleCount", { bg = "none" })
+	-- vim.api.nvim_set_hl(0, "TroubleFile", { bg = "none" })
+
+	-- Optional: Remove float borders or background if you want a more transparent feel
+	-- vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
+	-- vim.api.nvim_set_hl(0, "FloatBorder", { bg = "none" })
+	-- vim.api.nvim_set_hl(0, "Visual", { bg = "#5f8787", fg = "NONE" }) -- customize bg color
 	-- end,
+
 	-- "ramojus/mellifluous.nvim",
 	-- -- version = "v0.*", -- uncomment for stable config (some features might be missed if/when v1 comes out)
 	-- config = function()
@@ -61,7 +76,7 @@ return {
 	-- 	}) -- optional, see configuration section.
 	-- 	vim.cmd.colorscheme("mellifluous")
 	-- end,
-	--
+
 	"catppuccin/nvim",
 	name = "catppuccin",
 	priority = 1000,
@@ -70,7 +85,7 @@ return {
 			flavour = "auto", -- latte, frappe, macchiato, mocha
 			background = { -- :h background
 				light = "frappe",
-				dark = "macchiato",
+				dark = "mocha",
 			},
 			transparent_background = false, -- disables setting the background color.
 			show_end_of_buffer = false, -- shows the '~' characters after the end of buffers
