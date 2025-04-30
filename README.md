@@ -20,6 +20,15 @@ brew install stow
 sudo pacman -S stow
 ```
 
+### Ubuntu (or any debian based distro)
+```sh
+sudo apt install stow
+```
+
+### Fedora
+```sh
+sudo apt install stow
+```
 ---
 
 ## 🚀 Install Using Stow (Recommended)
@@ -74,7 +83,7 @@ dotfiles/
 ├── nvim/
 ├── zsh/
 ├── tmux/
-└── README.md
+└── so on...
 ```
 
 ---
