@@ -6,14 +6,16 @@ font-thicken
 # font-thicken-strength = 0
 macos-titlebar-style = "hidden"
 # macos-titlebar-proxy-icon = "hidden"
-# macos-window-shadow = false
+macos-window-shadow = false
 # theme = "gruvbox_material"
-# theme = dark: "catppuccin-mocha.conf", light: "catppuccin-frappe.conf"
+theme = dark: "catppuccin-macchiato.conf", light: "catppuccin-frappe.conf"
 # theme = dark:"rose-pine", light: "rose-pine-dawn"
-theme = dark:"catppuccin-macchiato.conf", light: "catppuccin-frappe.conf"
+# theme = dark:"catppuccin-macchiato.conf", light: "catppuccin-frappe.conf"
 # theme = dark: "solarized_osaka_dark", light: "solarized_osaka_light"
+# theme = dark: "everforest-dark-medium.ghostty", light: "everforest-light-hard.ghostty"
 # adjust-cell-height = 20
 # adjust-cursor-height = 20
+# theme = nord
 
 # background-opacity = 0.95
 # background-blur = 20
