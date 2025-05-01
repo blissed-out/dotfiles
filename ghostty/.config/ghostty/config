@@ -17,7 +17,7 @@ theme = dark: "catppuccin-macchiato.conf", light: "catppuccin-frappe.conf"
 # adjust-cursor-height = 20
 # theme = nord
 
-# background-opacity = 0.95
+# background-opacity = 0.9
 # background-blur = 20
 # cursor-color =  #616d80
 # cursor-text = #89aae0
