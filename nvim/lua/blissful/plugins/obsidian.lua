@@ -21,11 +21,11 @@ return {
 		workspaces = {
 			{
 				name = "personal",
-				path = "~/life",
+				path = "your path",
 			},
 			{
 				name = "career",
-				path = "~/Developer/software_engineering",
+				path = "your path",
 			},
 		},
 
